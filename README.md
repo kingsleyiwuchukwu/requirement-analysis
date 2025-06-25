@@ -63,8 +63,44 @@ Here are three key reasons why Requirement Analysis is essential:
 
 ---
 
-### ✅ Additional Benefits:
+## 🛠️ Key Activities in Requirement Analysis
 
-- 📊 Improves cost and time estimation  
-- 🧪 Supports better testing and validation  
-- 🙌 Increases stakeholder satisfaction by delivering the right product
+Requirement Analysis involves several structured activities that ensure the software system meets business needs and stakeholder expectations. Below are the five key activities involved:
+
+---
+
+### 📥 Requirement Gathering
+- Conduct interviews with stakeholders to understand their needs.
+- Distribute surveys or questionnaires for broader input.
+- Organize workshops or focus groups for collaborative requirement discussions.
+- Observe users in their environment to understand workflows.
+- Review existing systems and documentation for context.
+
+---
+
+### ✍️ Requirement Elicitation
+- Facilitate brainstorming sessions to uncover new ideas and hidden needs.
+- Use focus groups to explore specific user expectations.
+- Create low-fidelity prototypes to visualize proposed features and validate early ideas.
+
+---
+
+### 📚 Requirement Documentation
+- Create a **Software Requirement Specification (SRS)** document.
+- Write **user stories** to describe features from the end-user's perspective.
+- Develop **use case diagrams** to illustrate how users will interact with the system.
+
+---
+
+### 📊 Requirement Analysis and Modeling
+- Prioritize requirements based on business value, risk, and complexity.
+- Conduct **feasibility studies** (technical, financial, and time-based).
+- Build models such as **data flow diagrams (DFDs)** and **entity-relationship diagrams (ERDs)** to visualize how components interact.
+
+---
+
+### ✅ Requirement Validation
+- Review documented requirements with stakeholders for approval.
+- Define **acceptance criteria** to ensure requirements are testable.
+- Create **traceability matrices** to track requirements through design, development, and testing.
+
