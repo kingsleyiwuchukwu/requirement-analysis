@@ -104,3 +104,58 @@ Requirement Analysis involves several structured activities that ensure the soft
 - Define **acceptance criteria** to ensure requirements are testable.
 - Create **traceability matrices** to track requirements through design, development, and testing.
 
+## 🧩 Types of Requirements
+
+In software engineering, requirements are generally categorized into two major types: **Functional** and **Non-functional**. Both are crucial to building a successful system.
+
+---
+
+### ⚙️ Functional Requirements
+
+**Definition:**  
+Functional requirements describe **what the system should do** — the specific behaviors, features, and functions the application must support.
+
+**Examples from Booking Management Project:**
+
+- 🔍 **Property Search:**  
+  Users can search for properties using filters such as location, price range, and availability.
+
+- 👤 **User Registration & Login:**  
+  Users can create an account, log in securely, and manage their profile.
+
+- 🏠 **Property Listings:**  
+  The system should display available properties with details like images, price, location, and amenities.
+
+- 📅 **Booking System:**  
+  Users can select available dates, confirm bookings, and view their booking history.
+
+- 📨 **Email Notification:**  
+  A confirmation email is sent to the user immediately after a booking is completed.
+
+---
+
+### 🛡️ Non-functional Requirements
+
+**Definition:**  
+Non-functional requirements define **how the system performs** rather than specific behaviors. They focus on the system's quality attributes like speed, scalability, and security.
+
+**Examples from Booking Management Project:**
+
+- 🚀 **Performance:**  
+  Pages should load in under 2 seconds, even under heavy load (e.g: 1000 concurrent users).
+
+- 🔐 **Security:**  
+  Passwords must be encrypted. The system should prevent common vulnerabilities (e.g., SQL injection, XSS).
+
+- 📈 **Scalability:**  
+  The system must be able to scale horizontally to support increased traffic during peak periods.
+
+- 📱 **Usability:**  
+  The interface should be intuitive, with mobile responsiveness as a priority.
+
+- ☁️ **Reliability:**  
+  The system must maintain 99.9% uptime and support automatic recovery from failures.
+
+---
+
+> *While functional requirements define "what" the system does, non-functional requirements define "how well" the system performs those tasks.*
