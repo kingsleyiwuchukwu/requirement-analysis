@@ -198,3 +198,42 @@ A **Use Case Diagram** is a UML (Unified Modeling Language) tool that outlines:
 ### 🖼️ Diagram
 
 ![Use Case Diagram](alx-booking-uc.png)
+
+## ✅ Acceptance Criteria
+
+**Acceptance Criteria** are clearly defined conditions that a feature or functionality must meet to be considered complete and acceptable by stakeholders. These criteria serve as a bridge between requirement analysis and testing, ensuring that everyone — from developers to testers and product owners — has a shared understanding of what “done” means.
+
+---
+
+### 📌 Why Are Acceptance Criteria Important?
+
+- 🧠 **Clarity**: Eliminates assumptions by specifying exactly what must be delivered.
+- 🔍 **Testability**: Provides a basis for functional testing and quality assurance.
+- 🎯 **Alignment**: Ensures developers build what the stakeholder expects.
+- 📝 **Documentation**: Acts as a reference point throughout the development lifecycle.
+- ✅ **Validation**: Helps in confirming that the requirement has been implemented correctly.
+
+---
+
+### 🧾 Example: Acceptance Criteria for **Checkout Feature**
+
+**Feature:** _Checkout Process in the Booking Management System_
+
+**Acceptance Criteria:**
+- The user opens a property listing and clicks the “Book Now” button.
+- A calendar pops up where the user can select available check-in and check-out dates.
+- The user fills in required payment information (e.g., card number, CVV, expiry date).
+- The user submits the payment through a secure form.
+- Within seconds, a confirmation page is displayed showing:
+   - Booking details
+   - Total amount paid
+   - Check-in/check-out dates
+- The user receives a booking confirmation email within 2 minutes.
+- The selected dates are now blocked on the calendar to prevent double booking.
+- If payment fails:
+  - The user should receive a clear error message and not be charged.
+- Booked dates should immediately become unavailable to others.
+
+---
+
+> ✅ Well-defined acceptance criteria help teams **build right the first time** and **verify with confidence** during testing and validation.
