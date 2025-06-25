@@ -159,3 +159,42 @@ Non-functional requirements define **how the system performs** rather than speci
 ---
 
 > *While functional requirements define "what" the system does, non-functional requirements define "how well" the system performs those tasks.*
+
+## 🧾 Use Case Diagrams
+
+Use Case Diagrams are a core part of **Requirement Analysis** used to visually represent how users (actors) interact with a system. They help development teams understand the functional scope and user goals early in the project lifecycle.
+
+### 🔍 What is a Use Case Diagram?
+
+A **Use Case Diagram** is a UML (Unified Modeling Language) tool that outlines:
+- The different types of users (actors) interacting with the system.
+- The major system functionalities (use cases) from the user's perspective.
+- The relationships between users and the actions they perform.
+
+### ✅ Benefits of Use Case Diagrams
+- Provide a **clear visual representation** of system interactions.
+- Enhance **communication between stakeholders** and developers.
+- Help **identify and organize** the system’s functional requirements.
+- Support **prioritization** and better planning of development efforts.
+
+---
+
+### 🎯 Use Case Diagram for Booking System
+
+**Actors:**
+- **Guest**: A user browsing without logging in
+- **Registered User**: A logged-in user who can book, cancel, and receive confirmations
+- **Admin**: A user who manages listings and overall platform content
+
+**Use Cases:**
+- **Search Properties**
+- **View Property Details**
+- **Register/Login**
+- **Book Property**
+- **Cancel Booking**
+- **Receive Confirmation Email**
+- **Manage Listings**
+
+### 🖼️ Diagram
+
+![Use Case Diagram](alx-booking-uc.png)
